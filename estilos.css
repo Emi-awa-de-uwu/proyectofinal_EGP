@@ -1,0 +1,169 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+}
+
+body {
+
+	color:#333;
+	font-family:Arial, helvetica, sans-serif;
+	background-color: #ff0000 ;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+   float: center;
+}
+
+.wrapp {
+	max-width: 1000px;
+	width:100%;
+	margin:auto;
+	overflow: hidden;
+	background-color: rgb(49, 40, 0);
+	color: rgb(255, 0, 0); 
+}
+
+header {
+	width: 100%;
+	height: 83px;
+	padding:20px 0;
+	background-color:  #f87400 ;
+	overflow: hidden;
+}
+
+.logo {
+	width: 700px;
+	float: left;
+}
+
+.logo img {
+	
+	width:10%;
+	vertical-align: top;
+}
+
+nav {
+	float: right;
+	color: red;
+}
+
+nav ul li {
+	display: inline-block;
+	margin:0px 5px;
+	
+}
+
+nav ul li a {
+	display: block;
+	background: #a22;
+	color: #f2f2f2;
+	padding:10px 20px;
+	text-decoration: none;
+	border-radius:3px;
+	transition:all 300ms ease;
+}
+
+nav ul li a:hover {
+	color: #fff;
+	background: #F24C27;
+	background-color: orange;
+}
+
+.mensaje {
+	background:#F24C27;
+	padding:20px;
+	color:#fff;
+	margin:20px 0;
+	border-radius:5px;
+}
+
+.articulo {
+	float: left;
+	width: 70%;
+	padding:0px 20px 20px 0px;
+	background-color: #a22;
+	color: white; 
+}
+
+aside {
+	float: left;
+	width: 30%;
+	background-color: #a22;
+	color: white ;
+	padding:20px;
+	border-radius:5px;
+}
+
+.widget ul {
+	margin-left:20px;
+	
+}
+
+.widget ul li {
+	margin:10px 0;
+	width: 100%;
+}
+
+.widget ul li a {
+	color: blue;
+	background: url(https://cdn-icons-png.flaticon.com/512/25/25284.png)  no-repeat center right /2rem ;
+    padding: 2.2rem;
+	margin : 20px;
+	-webkit-text-stroke: auto black ;
+}
+
+.widget ul li a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	width: 100%;
+	background:#333;
+	padding:20px 0;
+	color:#fff;
+}
+
+footer p {
+	text-align:center;
+	background-color: #333;
+
+}
+h6{
+	float: center;
+	font-family: 'Franklin Gothic Medium';
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+    color: green;
+    -webkit-text-stroke: 1.5px black ;
+}
+h5{
+
+	font-family: 'Franklin Gothic Medium';
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+form{
+	font-size: 15px;
+	color: green;
+    -webkit-text-stroke: auto white ;
+}
+h4{
+	font-size: 20px;
+	color: white;
+
+}
+p{
+	color: black;
+}
+h1{
+	color: black;
+	-webkit-text-stroke: 0.25px black ;
+}
